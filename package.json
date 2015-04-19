@@ -1,0 +1,23 @@
+{
+  "name": "xkcd-get",
+  "version": "0.0.0",
+  "description": "load random comic strips from http://xkcd.com/",
+  "homepage": "https://github.com/GochoMugo/xkcd-get",
+  "license": "MIT",
+  "main": "xkcd.js",
+  "keywords": [
+    "xkcd",
+    "random",
+    "comic"
+  ],
+  "author": "GochoMugo <mugo@forfuture.co.ke> (https://gochomugo.github.io)",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "istanbul": "latest"
+  }
+}
+

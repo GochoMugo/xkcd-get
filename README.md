@@ -1,10 +1,20 @@
 
 # xkcd-get
 
+[![Build Status](https://travis-ci.org/GochoMugo/xkcd-get.svg)](https://travis-ci.org/GochoMugo/xkcd-get)
+
 Load random comic strips from http://xkcd.com/
 
 
 ## installation:
+
+Using npm:
+
+```bash
+⇒ npm install xkcd-get
+```
+
+Using bower:
 
 ```bash
 ⇒ bower install xkcd-get

@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '0.12'
+before_install: npm install -g grunt-cli
+script: npm test
+after_script: NODE_ENV=test npm install coveralls mocha-lcov-reporter && ./node_modules/.bin/istanbul
+  cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info
+  | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage
+deploy:
+  provider: npm
+  email: mugo@forfuture.co.ke
+  api_key:
+    secure: cW2B5AUFgzauz/bXAISTdkB69IYERviEk1c7RmByl8TiHWqzNhuU61c44LdsFOrkAEYYZ1Cvk4qeEM4h6BTHRRFR3PlHpYESF7m48h5CDDKEyVp6htlbAeOat+b08RU0XG6vGkWbSQKUUU0IOjtn7qdK1tgE89IGt95XrJLM4ic=
+  on:
+    tags: true
+    repo: GochoMugo/xkcd-get
+    branch: master
