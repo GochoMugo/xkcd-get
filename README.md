@@ -1,7 +1,7 @@
 
 # xkcd-get
 
-[![Build Status](https://travis-ci.org/GochoMugo/xkcd-get.svg)](https://travis-ci.org/GochoMugo/xkcd-get)
+[![Build Status](https://travis-ci.org/GochoMugo/xkcd-get.svg)](https://travis-ci.org/GochoMugo/xkcd-get) [![Coverage Status](https://coveralls.io/repos/GochoMugo/xkcd-get/badge.svg)](https://coveralls.io/r/GochoMugo/xkcd-get)
 
 Load random comic strips from http://xkcd.com/
 
