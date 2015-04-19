@@ -22,6 +22,14 @@ Using bower:
 
 ## setup:
 
+### script:
+
+Load the javascript file, `xkcd.js`, into your page.
+
+```html
+<script src="xkcd.js"></script>
+```
+
 ### image holder:
 
 Add such a `div` element:
@@ -37,6 +45,15 @@ Any element with the class `xkcd-refresh` will be targeted when adding a listene
 ```html
 <a href="#" class="xkcd-refresh"></a>
 ```
+
+
+## credits:
+
+Thanks to:
+
+* [Randall Munroe](http://xkcd.com/about/) for the [xkcd](http://xkcd.com) comic strips.
+* [Hemanth](https://github.com/hemanth) for hosting then web app serving urls to random comic strips from xkcd.
+* You for enjoying comics.
 
 
 ## license:
