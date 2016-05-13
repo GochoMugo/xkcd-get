@@ -2,7 +2,7 @@
   "use strict";
 
   var xkcdUrl = "http://xkcd.com";
-  var appUrl = "http://xkcd-imgs.herokuapp.com/";
+  var appUrl = "//xkcd-imgs.herokuapp.com/";
   var btns = document.getElementsByClassName("xkcd-refresh");
   var divs = document.getElementsByClassName("xkcd-img");
   var imgUrl;
