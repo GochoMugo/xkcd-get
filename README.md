@@ -1,7 +1,6 @@
-
 # xkcd-get
 
-[![Build Status](https://travis-ci.org/GochoMugo/xkcd-get.svg)](https://travis-ci.org/GochoMugo/xkcd-get) [![Coverage Status](https://coveralls.io/repos/GochoMugo/xkcd-get/badge.svg)](https://coveralls.io/r/GochoMugo/xkcd-get)
+[![Build Status](https://travis-ci.org/GochoMugo/xkcd-get.svg)](https://travis-ci.org/GochoMugo/xkcd-get)
 
 Load random comic strips from http://xkcd.com/
 
@@ -51,8 +50,11 @@ Any element with the class `xkcd-refresh` will be targeted when adding a listene
 
 Thanks to:
 
-* [Randall Munroe](http://xkcd.com/about/) for the [xkcd](http://xkcd.com) comic strips.
-* [Hemanth](https://github.com/hemanth) for hosting then web app serving urls to random comic strips from xkcd.
+* [Randall Munroe](http://xkcd.com/about/) for the [xkcd](http://xkcd.com)
+  comic strips.
+* [Hemanth](https://github.com/hemanth) for hosting the
+  [web app](https://github.com/hemanth/xkcd-imgs-heroku) serving urls to
+  random comic strips from xkcd.
 * You for enjoying comics.
 
 
@@ -60,5 +62,4 @@ Thanks to:
 
 **The MIT License (MIT)**
 
-Copyright (c) 2015 GochoMugo <mugo@forfuture.co.ke>
-
+Copyright (c) 2015-2016 GochoMugo (www.gmugo.in)
