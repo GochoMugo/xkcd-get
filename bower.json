@@ -1,6 +1,6 @@
 {
   "name": "xkcd-get",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "load random comic strips from http://xkcd.com/",
   "homepage": "https://github.com/GochoMugo/xkcd-get",
   "license": "MIT",
